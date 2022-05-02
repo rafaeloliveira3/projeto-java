@@ -21,7 +21,7 @@ public class Projeto1 {
 			
 	}
 	
-	public static double Menor(double [] vetor) {
+	public static double Menor(double vetor[]) {
 		
 		double menor = vetor[0];
 		
@@ -35,7 +35,7 @@ public class Projeto1 {
 		
 	}
 	
-	public static double Maior(double [] vetor) {
+	public static double Maior(double vetor[]) {
 		
 		double maior = 0;
 		
@@ -49,15 +49,13 @@ public class Projeto1 {
 		
 	}
 	
-	public static double Media(double [] vetor) {
+	public static double Media(double vetor[]) {
 		double media = 0;
 		
 		for(int i = 0 ; i < vetor.length ; i++) {
 			media += vetor[i];
 		}
 		
-		media /= vetor.length;
-		
-		return media;
+		return media/vetor.length;
 	}
 }
