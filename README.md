@@ -10,6 +10,6 @@ Aprender/Treinar, quanto ao uso de vetores e matrizes.
 
 ## Exercícios Propostos
 
-Projeto1.java - O objetivo desse código é descobrir o maior número armazenado no vetor, o menor número armazenado no vetor e a média aritmética de todos os números armazenados.
+Vetor.java - O objetivo desse código é descobrir o maior número armazenado no vetor, o menor número armazenado no vetor e a média aritmética de todos os números armazenados.
 
 Matriz.java - O objetivo desse código é similar ao anterior, sendo ele, descobrir o menor número armazenado na matriz, e a média aritmética de todos os números armazenados.
