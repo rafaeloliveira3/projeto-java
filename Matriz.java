@@ -22,14 +22,16 @@ public class Matriz {
 			}
 		}
 		
-		System.out.println("O menor n° da Matriz é: " + Menor(mat));
-		System.out.println("A média dos n°s é: " + Media(mat));
+		System.out.println("O menor n° da Matriz é: " + menor(mat));
+		System.out.println("A média dos n°s é: " + media(mat));
 		
 		input.close();
 		
 	}
 	
-	public static double Menor(double matriz[][]) {
+	
+//	Método referente a encontrar o menor número na matriz
+	public static double menor(double matriz[][]) {
 		
 		double menor = matriz[0][0];
 		
@@ -45,7 +47,9 @@ public class Matriz {
 		
 	}
 	
-	public static double Media(double matriz[][]) {
+	
+//	Método referente a calcular a média aritmética dos números armazenados na matriz
+	public static double media(double matriz[][]) {
 		double media = 0;
 		
 		for(int linha = 0 ; linha < matriz.length ; linha++) {
@@ -54,6 +58,6 @@ public class Matriz {
 			}
 		}
 		
-		return media / (matriz.length + matriz[0].length);
+		return media / (matriz.length * matriz[0].length);
 	}
 }
