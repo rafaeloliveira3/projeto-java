@@ -24,9 +24,6 @@ public class Matriz {
 		
 		System.out.println("O menor n° da Matriz é: " + menor(mat));
 		System.out.println("A média dos n°s é: " + media(mat));
-		
-		input.close();
-		
 	}
 	
 	
